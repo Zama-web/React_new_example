@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import ListContainer from './Components/ListComponent/ListContainer';
+// import PostContainer from './Components/PostContainer';
+// import TodoContainer from './Components/TodoContainer';
+// import CounterClick from './Components/UserComponent/CounterClick';
+// import UserList from './Components/UserComponent/UserList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <PostContainer /> */}
+      <hr/>
+      {/* <TodoContainer /> */}
+      <hr/>
+      {/* <UserList /> */}
+      <hr />
+      {/* <CounterClick /> */}
+      <hr />
+      <ListContainer/>
     </div>
   );
 }

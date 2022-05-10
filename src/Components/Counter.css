@@ -1,0 +1,16 @@
+.counter {
+    font-size: 30px;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+.emoji {
+    font-size: 60px;
+    margin-left: 50px;
+}

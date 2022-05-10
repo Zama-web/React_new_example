@@ -1,0 +1,26 @@
+.item {
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    background-color: coral;
+}
+.item * {
+    margin: 0 10px;
+}
+
+.item h2 {
+    width: 50%;
+}
+.item:hover {
+    box-shadow: 0 0 30px;
+}
+
+.completed {
+    background-color: aqua;
+}

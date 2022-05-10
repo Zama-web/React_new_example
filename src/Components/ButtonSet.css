@@ -1,0 +1,19 @@
+.btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    box-shadow: 0 0 3px black;
+    background-color: darkgreen;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    transition: box-shadow 0.3s;
+}
+
+button:hover {
+    box-shadow: 5px 5px 20px lightgreen;
+}
